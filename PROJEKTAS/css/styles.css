@@ -1,4 +1,30 @@
+/* GLOBAL STYLES */
+h2 {
+	font-family:Roboto;
+	font-weight: 600;
+	font-size: 34px;
+}
+h3 {
+	font-family:Roboto;
+	font-weight: 400;
+	font-size:20px;
+}
+button {
+	font-family:Roboto;
+	font-weight: 400;
+	color:white;
+	background-color: black;
+	font-size:16px;
+	padding: 10px;
+	
+}
+
+
 /* HEADER */
+body {
+	margin: 0px;
+}
+
 .navigation-menu-wrapper {
 	background-color:black;
 	max-width: 100%;
@@ -6,6 +32,7 @@
 	margin:0px;
 	
 }
+
 @media only screen and (max-width: 600px){
 	.navigation-menu-wrapper {
 	background-color:black;
@@ -52,6 +79,57 @@ nav.navigation-menu .home-button {
 
 /* CONTENT */
 
+div.short-introduction-wrapper {
+	text-align: center;
+}
 
+
+
+div.our-services {
+	text-align: center;
+	font-family:Roboto;
+	font-weight: 900;
+	font-size: 34px;
+	background-color: dodgerblue;
+	padding: 20px;
+	
+}
+
+div.our-services ul {
+	display:inline;
+	text-decoration: none;
+	list-style-type:none
+}
+
+
+
+div.background-overlay{
+	background-image: url(../Images/Computer.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	color:white;
+	padding: 0px; 0px; 0px; 0px;
+	align-content: center;
+
+	text-align: center;
+	
+}
+
+section.competence-section {
+	z-index: 1;
+	background-color: rgba(0,0,0,0.5);
+	padding:100px;
+	margin:0px;
+}
+	
 
 /* FOOTER */
+
+footer {
+	font-family:Roboto;
+	font-weight: 500;
+	background-color: gray;
+	padding: 5px;
+	color:white;
+}
+footer p {margin-left: 20px;}
