@@ -1,0 +1,57 @@
+/* HEADER */
+.navigation-menu-wrapper {
+	background-color:black;
+	max-width: 100%;
+	padding: 19px 0px 19px 0px;
+	margin:0px;
+	
+}
+@media only screen and (max-width: 600px){
+	.navigation-menu-wrapper {
+	background-color:black;
+	max-width: 100%;
+	padding: 9px 0px 9px 0px;
+	margin:0px;
+	}
+}
+
+.navigation-menu a {
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: left;
+	
+}
+@media only screen and (max-width: 600px){
+	.navigation-menu a {
+	text-decoration: none;
+	color:white;
+	font-size: 15px;
+	padding: 10px;
+	}
+	.navigation-menu a:hover {
+	background-color: gray;
+	}
+}
+
+.navigation-menu a:hover {
+	background-color: gray;
+}
+nav.navigation-menu .home-button {
+	background-color: dodgerblue;
+	margin-right: -5px;
+}
+
+/* HERO IMAGES */
+
+
+
+
+
+
+/* CONTENT */
+
+
+
+/* FOOTER */
